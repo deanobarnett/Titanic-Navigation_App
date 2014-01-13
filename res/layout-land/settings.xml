@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:background="@drawable/background">
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content" android:id="@+id/textView1"
+		android:text="Settings" android:layout_height="wrap_content"
+		android:layout_alignParentTop="true" android:layout_centerHorizontal="true"></TextView>
+	<RadioGroup android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/radioGroup1"
+		android:layout_below="@+id/distance" android:layout_alignParentRight="true"
+		android:layout_alignParentLeft="true">
+		<RadioButton android:checked="false" android:text="Miles"
+			android:layout_width="wrap_content" android:id="@+id/milesRadio"
+			android:layout_height="wrap_content"></RadioButton>
+		<RadioButton android:checked="true" android:text="Kilometers"
+			android:layout_width="wrap_content" android:id="@+id/kmRadio"
+			android:layout_marginBottom="42dp" android:layout_height="wrap_content"></RadioButton>
+	</RadioGroup>
+	<Spinner android:id="@+id/distSpinner" android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/radius"
+		android:layout_alignParentLeft="true"></Spinner>
+	<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="Distance at which information is displayed?" android:id="@+id/radius"
+		android:layout_below="@+id/textView1" android:layout_alignParentLeft="true"
+		android:layout_marginTop="14dp"></TextView>
+	<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="Distance in kilmeters or miles?" android:id="@+id/distance"
+		android:layout_centerVertical="true" android:layout_alignParentLeft="true"></TextView>
+
+</RelativeLayout>

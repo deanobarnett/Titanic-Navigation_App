@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, SplashlActivity!</string>
+	<string name="app_name">Project_Final</string>
+	<string name="main_help">
+		Click the start button on the Menu Screen to
+		start\n\nThis screen shows a camera view. You can move your device
+		from right to left. The pin icon tells you which direction
+		to go.\n\nIf
+		you tilt you device flat a button appears in the bottom left
+		of your
+		screen. This opens a map view of where you are and where
+		to go.\n\nOnce
+		you get near to your destination, information will be
+		displayed.
+	</string>
+
+	<string name="settings_help">
+		In the settings page you can change options that
+		affect the application.\n\nFirstly you can change the distance at
+		which information appears. This can be set from 1km-5km.\n\nThe other
+		option allows you to change the distance displayed from kilometers to
+		miles.\n\nPress the back button on your Android device to return to
+		the Menu screen.
+	</string>
+
+	<string name="map_help">
+		A map view can be opened from the main page when
+		you tilt your device flat. This shows you where you are and where to
+		go.\n\nPinching the screen allows you to zoom. You can also tap the
+		screen and press the zoom in/zoom out buttons.
+	</string>
+
+
+	<string-array name="distArray">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+</resources>

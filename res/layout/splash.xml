@@ -1,0 +1,15 @@
+
+<RelativeLayout android:id="@+id/relativeLayout1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/background">
+	<ImageView android:id="@+id/titanicImage" android:src="@drawable/titanic"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:layout_centerVertical="true" android:layout_alignParentLeft="true"></ImageView>
+	<TextView android:bufferType="normal" android:text="Take me There!"
+		android:gravity="center" android:id="@+id/splashTitle"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content" android:layout_width="match_parent"
+		android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+		android:layout_marginTop="30dp"></TextView>
+</RelativeLayout>
